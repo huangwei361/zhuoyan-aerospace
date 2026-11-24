@@ -1,0 +1,5 @@
+﻿_shots/
+_source_images/
+frames/
+__pycache__/
+*.pyc

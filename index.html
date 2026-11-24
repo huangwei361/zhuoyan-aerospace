@@ -1,0 +1,672 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>逐焰航天 · ZHUOYAN AEROSPACE</title>
+<meta name="description" content="逐焰航天（筹）— 以液氧甲烷发动机、标准化卫星平台与行业数据服务，构建高频、可复用、可持续的天地运输网络。"/>
+<meta name="keywords" content="商业航天,火箭发动机,液氧甲烷,可复用火箭,卫星平台,遥感数据,航天港"/>
+<meta name="author" content="逐焰航天"/>
+<meta name="theme-color" content="#0B2545"/>
+<meta name="robots" content="index, follow"/>
+
+<meta property="og:type" content="website"/>
+<meta property="og:site_name" content="逐焰航天 ZHUOYAN AEROSPACE"/>
+<meta property="og:title" content="逐焰航天 · 从一台发动机，到一整套基础设施"/>
+<meta property="og:description" content="以液氧甲烷发动机、标准化卫星平台与行业数据服务，构建高频、可复用、可持续的天地运输网络。"/>
+<meta property="og:image" content="assets/cover.webp"/>
+<meta property="og:locale" content="zh_CN"/>
+<meta property="og:locale:alternate" content="en_US"/>
+
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:title" content="逐焰航天 · ZHUOYAN AEROSPACE"/>
+<meta name="twitter:description" content="从一台发动机，到一整套基础设施。"/>
+<meta name="twitter:image" content="assets/cover.webp"/>
+
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&family=Noto+Sans+SC:wght@400;500;700&family=Noto+Serif+SC:wght@500;700&display=swap" rel="stylesheet"/>
+<link rel="stylesheet" href="css/styles.css"/>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%230B2545'/%3E%3Cpath d='M16 5l5 9v13H11V14z' fill='%23F5A623'/%3E%3C/svg%3E"/>
+</head>
+<body>
+
+<!-- ============ NAV ============ -->
+<header class="nav" id="nav">
+  <div class="nav__inner">
+    <a class="nav__brand" href="#top">
+      <span class="nav__brand-cn">逐焰航天</span>
+      <span class="nav__brand-en">ZHUOYAN</span>
+    </a>
+
+    <nav class="nav__links" id="navLinks">
+      <a class="nav__link" href="#missions" data-i18n-en="nav.missions">三大使命</a>
+      <a class="nav__link" href="#engine" data-i18n-en="nav.engine">发动机</a>
+      <a class="nav__link" href="#data" data-i18n-en="nav.data">卫星与数据</a>
+      <a class="nav__link" href="#port" data-i18n-en="nav.port">航天港</a>
+      <a class="nav__link" href="#roadmap" data-i18n-en="nav.roadmap">路线图</a>
+      <a class="nav__link" href="#careers" data-i18n-en="nav.careers">招贤</a>
+    </nav>
+
+    <div class="nav__actions">
+      <div class="lang-switch" role="group" aria-label="Language">
+        <button class="lang-switch__btn is-active" data-lang="zh" aria-label="中文">中</button>
+        <button class="lang-switch__btn" data-lang="en" aria-label="English">EN</button>
+      </div>
+      <button class="nav__toggle" id="navToggle" aria-label="菜单" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main id="top">
+
+<!-- ============ HERO ============ -->
+<section class="hero">
+  <div class="hero__bg" id="heroBg"></div>
+
+  <div class="hero__inner">
+    <span class="hero__tag" data-i18n-en="hero.tag">COMPANY BROCHURE · 2026</span>
+
+    <h1 class="hero__title">
+      <span data-i18n-en="hero.title1">从一台发动机</span>
+      <em data-i18n-en="hero.title2">到一整套基础设施</em>
+    </h1>
+
+    <p class="hero__lead" data-i18n-en="hero.lead">
+      以液氧甲烷发动机、标准化卫星平台与行业数据服务，构建高频、可复用、可持续的天地运输网络。
+    </p>
+
+    <div class="hero__cta">
+      <a class="btn btn--primary" href="#missions">
+        <span data-i18n-en="hero.cta1">了解三大使命</span>
+        <span class="btn__arrow">→</span>
+      </a>
+      <a class="btn btn--ghost" href="#contact">
+        <span data-i18n-en="hero.cta2">联系我们</span>
+      </a>
+    </div>
+
+    <div class="hero__stats">
+      <div class="hero__stat">
+        <div class="hero__stat-num">150 kN</div>
+        <div class="hero__stat-lbl" data-i18n-en="hero.s1">首版发动机推力</div>
+      </div>
+      <div class="hero__stat">
+        <div class="hero__stat-num">≥ 320 s</div>
+        <div class="hero__stat-lbl" data-i18n-en="hero.s2">海平面比冲</div>
+      </div>
+      <div class="hero__stat">
+        <div class="hero__stat-num">≥ 3 次</div>
+        <div class="hero__stat-lbl" data-i18n-en="hero.s3">重复点火</div>
+      </div>
+      <div class="hero__stat">
+        <div class="hero__stat-num">25 页</div>
+        <div class="hero__stat-lbl" data-i18n-en="hero.s4">公司宣传册</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="hero__scroll">SCROLL</div>
+</section>
+
+<!-- ============ MISSIONS ============ -->
+<section class="section" id="missions">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="section-head__eyebrow" data-i18n-en="m.eyebrow">THREE MISSIONS</span>
+      <h2 class="section-head__title" data-i18n-en="m.title">
+        三条线，一个目标：<em>把发射变成日常</em>
+      </h2>
+      <p class="section-head__lead" data-i18n-en="m.lead">
+        火箭、卫星、数据互为条件。没有高频发射，卫星运力无从谈起；没有在轨数据，发射能力无法变现；三者闭合，公司才成为基础设施。
+      </p>
+    </div>
+
+    <div class="mission-grid">
+      <article class="mission-card reveal">
+        <img class="mission-card__img" src="assets/engine.webp" alt="火箭发动机试车台" loading="lazy"/>
+        <div class="mission-card__body">
+          <div class="mission-card__num">01</div>
+          <h3 class="mission-card__title" data-i18n-en="m.c1t">重型可复用运载</h3>
+          <p class="mission-card__desc" data-i18n-en="m.c1d">
+            从 150 kN 液氧甲烷验证机起步，沿同一工程血脉迭代到全尺寸可复用入轨火箭。每代继承上一代的推力室、涡轮泵、阀门、试验规程与数据资产。
+          </p>
+          <div class="mission-card__meta">
+            <span class="chip">BF-1 → BF-H</span>
+            <span class="chip" data-i18n-en="m.c1m1">可复用</span>
+            <span class="chip" data-i18n-en="m.c1m2">液氧甲烷</span>
+          </div>
+        </div>
+      </article>
+
+      <article class="mission-card reveal">
+        <img class="mission-card__img" src="assets/satellite.webp" alt="在轨地球观测卫星" loading="lazy"/>
+        <div class="mission-card__body">
+          <div class="mission-card__num">02</div>
+          <h3 class="mission-card__title" data-i18n-en="m.c2t">轨道与深空基础设施</h3>
+          <p class="mission-card__desc" data-i18n-en="m.c2d">
+            低轨星座是现金牛与能力验证场，月面中转与火面货运是十年后的第二曲线。三段式路径，每一站都建立在前一站的工程资产之上。
+          </p>
+          <div class="mission-card__meta">
+            <span class="chip">LEO</span>
+            <span class="chip">LUNAR</span>
+            <span class="chip">MARS</span>
+          </div>
+        </div>
+      </article>
+
+      <article class="mission-card reveal">
+        <img class="mission-card__img" src="assets/m3cover.webp" alt="海岸航天港工业区" loading="lazy"/>
+        <div class="mission-card__body">
+          <div class="mission-card__num">03</div>
+          <h3 class="mission-card__title" data-i18n-en="m.c3t">中国超级航天港</h3>
+          <p class="mission-card__desc" data-i18n-en="m.c3d">
+            紧贴海岸、远离居民、能源充沛、轨道适配。旧工业骨架改造成新工业港口，多发射台支撑高频运营。
+          </p>
+          <div class="mission-card__meta">
+            <span class="chip" data-i18n-en="m.c3m1">主港候选</span>
+            <span class="chip" data-i18n-en="m.c3m2">次港</span>
+            <span class="chip" data-i18n-en="m.c3m3">高频发射</span>
+          </div>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============ ENGINE ============ -->
+<section class="section section--tint" id="engine">
+  <div class="container">
+    <div class="split">
+      <div class="split__media reveal">
+        <img src="assets/engine.webp" alt="火箭发动机再生冷却管路" loading="lazy"/>
+      </div>
+
+      <div class="split__body reveal">
+        <span class="section-head__eyebrow" data-i18n-en="e.eyebrow">BLUE FLAME-1</span>
+        <h3 data-i18n-en="e.title">蓝焰-1 液氧甲烷发动机</h3>
+        <p data-i18n-en="e.p1">
+          100—300 kN 级可重复点火液氧甲烷验证机。再生冷却推力室、燃气发生器循环涡轮泵、硬件与软件双重紧急关机。
+        </p>
+        <p data-i18n-en="e.p2">
+          第一年目标不是造出最强火箭，而是拿到公开、可复现、可对比的工程数据：燃烧稳定、推力调节、连续点火、遥测、安全联锁与寿命。
+        </p>
+
+        <table class="spec-table">
+          <tbody>
+            <tr><th data-i18n-en="e.k1">海平面推力</th><td>150 kN</td></tr>
+            <tr><th data-i18n-en="e.k2">燃烧室压力</th><td>10 MPa（设计点，裕度 1.5×）</td></tr>
+            <tr><th data-i18n-en="e.k3">推进剂</th><td>LOX / LCH4 · 混合比 3.4</td></tr>
+            <tr><th data-i18n-en="e.k4">比冲（海平面）</th><td>≥ 320 s</td></tr>
+            <tr><th data-i18n-en="e.k5">重复点火</th><td>≥ 3 次 · 间隔 ≥ 30 分钟</td></tr>
+            <tr><th data-i18n-en="e.k6">推力调节</th><td>30% — 100%</td></tr>
+            <tr><th data-i18n-en="e.k7">单次燃烧</th><td>≥ 30 s（长程 ≥ 100 s）</td></tr>
+            <tr><th data-i18n-en="e.k8">整机重量</th><td>≤ 80 kg（不含阀门与气瓶）</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <div class="chart-box reveal" style="margin-top:clamp(32px,5vw,64px);">
+      <svg viewBox="0 0 1600 790" preserveAspectRatio="xMidYMid meet" role="img" aria-label="蓝焰发动机系列">
+        <rect width="1600" height="790" fill="#FFFFFF"/>
+        <g font-family="Inter, sans-serif">
+          <text x="120" y="110" font-size="13" letter-spacing="7" fill="#F5A623" font-weight="700">BLUE FLAME FAMILY · 蓝焰系列</text>
+          <text x="120" y="165" font-size="38" fill="#0B2545" font-weight="800">一代工程血脉，四代产品</text>
+
+          <g transform="translate(120 230)">
+            <rect x="0" y="0" width="310" height="330" fill="#F8FAFC" stroke="#E2E8F0"/>
+            <rect x="0" y="0" width="310" height="5" fill="#5B9BD5"/>
+            <text x="24" y="46" font-size="12" letter-spacing="3" fill="#F5A623" font-weight="700">BF-1 · 验证机</text>
+            <text x="24" y="86" font-size="24" fill="#0B2545" font-weight="700">蓝焰-1</text>
+            <g transform="translate(155 175)">
+              <rect x="-26" y="-24" width="52" height="40" fill="#1E3A8A"/>
+              <path d="M -32 16 L 32 16 L 52 62 L -52 62 Z" fill="#5B9BD5"/>
+              <rect x="-44" y="62" width="88" height="18" fill="#F5A623"/>
+            </g>
+            <text x="24" y="278" font-size="14" fill="#0B2545" font-weight="600">150 kN · 10 MPa</text>
+            <text x="24" y="302" font-size="13" fill="#475569">复用 5 次 · 2026—2027</text>
+          </g>
+
+          <g transform="translate(470 230)">
+            <rect x="0" y="0" width="310" height="330" fill="#F8FAFC" stroke="#E2E8F0"/>
+            <rect x="0" y="0" width="310" height="5" fill="#3B82F6"/>
+            <text x="24" y="46" font-size="12" letter-spacing="3" fill="#F5A623" font-weight="700">BF-2 · 工程化</text>
+            <text x="24" y="86" font-size="24" fill="#0B2545" font-weight="700">蓝焰-2</text>
+            <g transform="translate(155 175)">
+              <rect x="-32" y="-30" width="64" height="48" fill="#1E40AF"/>
+              <path d="M -40 18 L 40 18 L 64 66 L -64 66 Z" fill="#3B82F6"/>
+              <rect x="-54" y="66" width="108" height="18" fill="#F5A623"/>
+            </g>
+            <text x="24" y="278" font-size="14" fill="#0B2545" font-weight="600">1—3 MN · 18—22 MPa</text>
+            <text x="24" y="302" font-size="13" fill="#475569">复用 20+ 次 · 2028—2030</text>
+          </g>
+
+          <g transform="translate(820 230)">
+            <rect x="0" y="0" width="310" height="330" fill="#F8FAFC" stroke="#E2E8F0"/>
+            <rect x="0" y="0" width="310" height="5" fill="#1E40AF"/>
+            <text x="24" y="46" font-size="12" letter-spacing="3" fill="#F5A623" font-weight="700">BF-3 · 复用版</text>
+            <text x="24" y="86" font-size="24" fill="#0B2545" font-weight="700">蓝焰-3</text>
+            <g transform="translate(155 175)">
+              <rect x="-38" y="-36" width="76" height="54" fill="#1E3A8A"/>
+              <path d="M -48 18 L 48 18 L 76 70 L -76 70 Z" fill="#1E40AF"/>
+              <rect x="-64" y="70" width="128" height="18" fill="#F5A623"/>
+            </g>
+            <text x="24" y="278" font-size="14" fill="#0B2545" font-weight="600">10 MN 级 · 25—30 MPa</text>
+            <text x="24" y="302" font-size="13" fill="#475569">复用 100+ 次 · 2030—2032</text>
+          </g>
+
+          <g transform="translate(1170 230)">
+            <rect x="0" y="0" width="310" height="330" fill="#F8FAFC" stroke="#E2E8F0"/>
+            <rect x="0" y="0" width="310" height="5" fill="#F5A623"/>
+            <text x="24" y="46" font-size="12" letter-spacing="3" fill="#F5A623" font-weight="700">BF-H · 全尺寸</text>
+            <text x="24" y="86" font-size="24" fill="#0B2545" font-weight="700">蓝焰 重型</text>
+            <g transform="translate(155 175)">
+              <rect x="-44" y="-40" width="88" height="58" fill="#06182E"/>
+              <path d="M -56 18 L 56 18 L 88 74 L -88 74 Z" fill="#0B2545"/>
+              <rect x="-76" y="74" width="152" height="20" fill="#F37820"/>
+            </g>
+            <text x="24" y="278" font-size="14" fill="#0B2545" font-weight="600">10 MN × N 集群</text>
+            <text x="24" y="302" font-size="13" fill="#475569">入轨 ≤ ¥1,000/kg · 2033—2035</text>
+          </g>
+
+          <text x="120" y="620" font-size="15" fill="#475569">从 BF-1 到 BF-H 不是四个新项目，是四个版本号 —— 每代产品继承上一代的推力室、涡轮泵、阀门、</text>
+          <text x="120" y="648" font-size="15" fill="#475569">试验规程与数据资产，边际成本递减，可靠性递增。</text>
+        </g>
+      </svg>
+    </div>
+  </div>
+</section>
+
+<!-- ============ SATELLITE & DATA ============ -->
+<section class="section" id="data">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="section-head__eyebrow" data-i18n-en="d.eyebrow">SATELLITE & DATA</span>
+      <h2 class="section-head__title" data-i18n-en="d.title">
+        把太空数据，<em>变成行业决策</em>
+      </h2>
+      <p class="section-head__lead" data-i18n-en="d.lead">
+        100—200 kg 级模块化平台，太阳同步轨道，X 频段下行。9—12 个月交付，可搭载多光谱、高光谱或 SAR 载荷。
+      </p>
+    </div>
+
+    <div class="split">
+      <div class="split__body reveal">
+        <span class="section-head__eyebrow" data-i18n-en="d.e2">PLATFORM</span>
+        <h3 data-i18n-en="d.t2">标准化平台 + 模块化载荷</h3>
+        <p data-i18n-en="d.p2">
+          首期与国内高校、院所的成熟平台合作，不自研大平台。首颗验证星可通过采购、合作或拼车发射获得在轨能力，把研发资源留给真正需要自研的部分。
+        </p>
+
+        <table class="spec-table">
+          <tbody>
+            <tr><th data-i18n-en="d.k1">平台质量</th><td>100 — 200 kg</td></tr>
+            <tr><th data-i18n-en="d.k2">轨道</th><td>太阳同步 500 — 600 km</td></tr>
+            <tr><th data-i18n-en="d.k3">设计寿命</th><td>3 — 5 年</td></tr>
+            <tr><th data-i18n-en="d.k4">数据下行</th><td>X 频段 ≥ 100 Mbps</td></tr>
+            <tr><th data-i18n-en="d.k5">载荷</th><td>多光谱 / 高光谱 / SAR / IoT</td></tr>
+            <tr><th data-i18n-en="d.k6">交付方式</th><td>API · 订阅 · 定制报告 · 项目制</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="split__media reveal">
+        <img src="assets/data.webp" alt="卫星俯瞰的农田拼图" loading="lazy"/>
+      </div>
+    </div>
+
+    <div style="margin-top:clamp(36px,5vw,64px);">
+      <p style="font-family:var(--font-mono);font-size:11px;letter-spacing:.2em;color:var(--accent);font-weight:700;margin-bottom:18px;" data-i18n-en="d.e3">EIGHT VERTICALS · 八大行业</p>
+      <div class="industry-grid reveal">
+        <div class="industry-item"><div class="industry-item__cn">农业</div><div class="industry-item__en">Agriculture</div></div>
+        <div class="industry-item"><div class="industry-item__cn">保险</div><div class="industry-item__en">Insurance</div></div>
+        <div class="industry-item"><div class="industry-item__cn">矿产</div><div class="industry-item__en">Mining</div></div>
+        <div class="industry-item"><div class="industry-item__cn">应急</div><div class="industry-item__en">Emergency</div></div>
+        <div class="industry-item"><div class="industry-item__cn">林业</div><div class="industry-item__en">Forestry</div></div>
+        <div class="industry-item"><div class="industry-item__cn">城市</div><div class="industry-item__en">Urban</div></div>
+        <div class="industry-item"><div class="industry-item__cn">能源</div><div class="industry-item__en">Energy</div></div>
+        <div class="industry-item"><div class="industry-item__cn">海洋</div><div class="industry-item__en">Maritime</div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ SPACEPORT ============ -->
+<section class="section section--dark" id="port">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="section-head__eyebrow" data-i18n-en="p.eyebrow">SPACEPORT</span>
+      <h2 class="section-head__title" data-i18n-en="p.title">中国超级航天港</h2>
+      <p class="section-head__lead" data-i18n-en="p.lead">
+        发射场是高频运营与重资产结合的护城河。一旦建成，是后来者难以复制的先发优势。
+      </p>
+    </div>
+
+    <div class="split" style="margin-bottom:clamp(36px,5vw,64px);">
+      <div class="split__body reveal">
+        <span class="section-head__eyebrow" data-i18n-en="p.e2">FOUR HARD CONSTRAINTS</span>
+        <h3 data-i18n-en="p.t2">选址的四项硬约束</h3>
+        <p data-i18n-en="p.p2">
+          任何一项不满足，都不是“差一点”，而是不可行。这四条决定了候选地的排序。
+        </p>
+
+        <div class="fig-grid" style="margin-top:24px;">
+          <div class="fig">
+            <div class="fig__title" data-i18n-en="p.f1t">紧贴海岸</div>
+            <div class="fig__desc" data-i18n-en="p.f1d">故障弹道必须能进入无人海域，远离航线、渔场与岛屿。</div>
+          </div>
+          <div class="fig">
+            <div class="fig__title" data-i18n-en="p.f2t">远离居民</div>
+            <div class="fig__desc" data-i18n-en="p.f2d">起飞噪音能震碎几公里外的玻璃，需 ≥ 10 km 人口缓冲。</div>
+          </div>
+          <div class="fig">
+            <div class="fig__title" data-i18n-en="p.f3t">能源充沛</div>
+            <div class="fig__desc" data-i18n-en="p.f3d">甲烷燃料、液化、储存、回收、翻修与基地供电都是耗电大户。</div>
+          </div>
+          <div class="fig">
+            <div class="fig__title" data-i18n-en="p.f4t">轨道适配</div>
+            <div class="fig__desc" data-i18n-en="p.f4d">太阳同步、低倾角与极地轨道，每一类载荷都挑剔轨道倾角。</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="split__media reveal">
+        <img src="assets/legacy.webp" alt="废弃的海岸油气工业区" loading="lazy"/>
+      </div>
+    </div>
+
+    <div class="chart-box reveal" style="background:rgba(255,255,255,0.05);border-color:rgba(255,255,255,0.12);">
+      <svg viewBox="0 0 1600 700" preserveAspectRatio="xMidYMid meet" role="img" aria-label="中国航天港候选地">
+        <g font-family="Inter, sans-serif">
+          <text x="120" y="110" font-size="13" letter-spacing="7" fill="#F5A623" font-weight="700">CHINA SITES · 四类候选</text>
+          <text x="120" y="165" font-size="38" fill="#FFFFFF" font-weight="800">四类海岸，四个候选区</text>
+
+          <g transform="translate(120 230)">
+            <rect x="0" y="0" width="330" height="330" fill="#FFFFFF" fill-opacity="0.06"/>
+            <rect x="0" y="0" width="330" height="4" fill="#5B9BD5"/>
+            <text x="26" y="52" font-size="13" letter-spacing="4" fill="#F5A623" font-weight="700">A · 北方</text>
+            <text x="26" y="96" font-size="24" fill="#FFFFFF" font-weight="700">渤海湾 / 黄海北岸</text>
+            <text x="26" y="140" font-size="14" fill="#94A3B8">产业链与能源最强</text>
+            <text x="26" y="164" font-size="14" fill="#94A3B8">轨道偏北，环保压力大</text>
+            <text x="26" y="188" font-size="14" fill="#94A3B8">适合作为北方备份候选</text>
+            <text x="26" y="290" font-size="12" letter-spacing="3" fill="#F5A623" font-weight="700">BACKUP</text>
+          </g>
+
+          <g transform="translate(480 230)">
+            <rect x="0" y="0" width="330" height="330" fill="#FFFFFF" fill-opacity="0.06"/>
+            <rect x="0" y="0" width="330" height="4" fill="#3B82F6"/>
+            <text x="26" y="52" font-size="13" letter-spacing="4" fill="#F5A623" font-weight="700">B · 华东</text>
+            <text x="26" y="96" font-size="24" fill="#FFFFFF" font-weight="700">长三角 / 福建沿海</text>
+            <text x="26" y="140" font-size="14" fill="#94A3B8">产业链最强、物流最好</text>
+            <text x="26" y="164" font-size="14" fill="#94A3B8">人口密度高，台风影响</text>
+            <text x="26" y="188" font-size="14" fill="#94A3B8">需远郊选址</text>
+            <text x="26" y="290" font-size="12" letter-spacing="3" fill="#F5A623" font-weight="700">ALTERNATE</text>
+          </g>
+
+          <g transform="translate(840 230)">
+            <rect x="0" y="0" width="330" height="330" fill="#FFFFFF" fill-opacity="0.1"/>
+            <rect x="0" y="0" width="330" height="4" fill="#F5A623"/>
+            <text x="26" y="52" font-size="13" letter-spacing="4" fill="#F5A623" font-weight="700">C · 华南 ★ 主港</text>
+            <text x="26" y="96" font-size="24" fill="#FFFFFF" font-weight="700">粤西 / 北部湾</text>
+            <text x="26" y="140" font-size="14" fill="#CBD5E1">低纬度，轨道倾角最优</text>
+            <text x="26" y="164" font-size="14" fill="#CBD5E1">人口密度低，缓冲充足</text>
+            <text x="26" y="188" font-size="14" fill="#CBD5E1">政策与产业链条件成熟</text>
+            <text x="26" y="290" font-size="12" letter-spacing="3" fill="#F5A623" font-weight="700">PRIMARY</text>
+          </g>
+
+          <g transform="translate(1200 230)">
+            <rect x="0" y="0" width="330" height="330" fill="#FFFFFF" fill-opacity="0.06"/>
+            <rect x="0" y="0" width="330" height="4" fill="#F37820"/>
+            <text x="26" y="52" font-size="13" letter-spacing="4" fill="#F5A623" font-weight="700">D · 海南</text>
+            <text x="26" y="96" font-size="24" fill="#FFFFFF" font-weight="700">文昌既有发射场</text>
+            <text x="26" y="140" font-size="14" fill="#94A3B8">低纬度优势，已有设施</text>
+            <text x="26" y="164" font-size="14" fill="#94A3B8">本地航天配套较弱</text>
+            <text x="26" y="188" font-size="14" fill="#94A3B8">联合运营，承接短期产能</text>
+            <text x="26" y="290" font-size="12" letter-spacing="3" fill="#F5A623" font-weight="700">SECONDARY</text>
+          </g>
+
+          <text x="120" y="640" font-size="15" fill="#94A3B8">推荐双港协同：C 作为长期主港自建，D 与既有发射场联合运营补足短期产能。港建设周期约五年。</text>
+        </g>
+      </svg>
+    </div>
+  </div>
+</section>
+
+<!-- ============ ROADMAP ============ -->
+<section class="section section--tint" id="roadmap">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="section-head__eyebrow" data-i18n-en="r.eyebrow">ROADMAP</span>
+      <h2 class="section-head__title" data-i18n-en="r.title">
+        三年，从一台发动机<br/><em>到一整套基础设施</em>
+      </h2>
+      <p class="section-head__lead" data-i18n-en="r.lead">
+        Year 01 解决“能不能造”，Year 02 解决“能不能持续造”，Year 03 解决“造出来能不能赚钱”。
+      </p>
+    </div>
+
+    <div class="years">
+      <div class="year reveal">
+        <div class="year__label">YEAR 01 · ENGINE</div>
+        <div class="year__title" data-i18n-en="r.y1t">造出一台能多次点火的发动机</div>
+        <ul>
+          <li data-i18n-en="r.y1a">团队组建 8—12 人</li>
+          <li data-i18n-en="r.y1b">设计冻结 PDR / CDR</li>
+          <li data-i18n-en="r.y1c">单组件 + 子系统试验</li>
+          <li data-i18n-en="r.y1d">首次热试车 + 重复点火</li>
+          <li data-i18n-en="r.y1e">首颗卫星合作签约</li>
+        </ul>
+      </div>
+
+      <div class="year reveal">
+        <div class="year__label">YEAR 02 · INFRASTRUCTURE</div>
+        <div class="year__title" data-i18n-en="r.y2t">建出高频发射的工程体系</div>
+        <ul>
+          <li data-i18n-en="r.y2a">长程试验 100 s</li>
+          <li data-i18n-en="r.y2b">多次复推 ≥ 5 次</li>
+          <li data-i18n-en="r.y2c">试车台 · 危化品 · 数据闭环</li>
+          <li data-i18n-en="r.y2d">试验合作方长期绑定</li>
+          <li data-i18n-en="r.y2e">航天港选址与环评启动</li>
+        </ul>
+      </div>
+
+      <div class="year reveal">
+        <div class="year__label">YEAR 03 · BUSINESS</div>
+        <div class="year__title" data-i18n-en="r.y3t">把基础设施变成现金流</div>
+        <ul>
+          <li data-i18n-en="r.y3a">验证星在轨演示</li>
+          <li data-i18n-en="r.y3b">数据 SaaS 商业化</li>
+          <li data-i18n-en="r.y3c">5—10 颗商业卫星</li>
+          <li data-i18n-en="r.y3d">航天港首座试验台建成</li>
+          <li data-i18n-en="r.y3e">A 轮融资完成</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CAREERS ============ -->
+<section class="section" id="careers">
+  <div class="container">
+    <div class="split split--reverse">
+      <div class="split__body reveal">
+        <span class="section-head__eyebrow" data-i18n-en="j.eyebrow">JOIN US</span>
+        <h3 data-i18n-en="j.title">和一群修路的人共事</h3>
+        <p data-i18n-en="j.p">
+          所有核心岗位须实际全职，并签署《股东协议》《保密协议》《竞业限制协议》。期权池 10%—15%，分四期授予，四年归属。
+        </p>
+      </div>
+
+      <div class="split__media reveal">
+        <img src="assets/partners.webp" alt="航天工程师审阅技术图纸" loading="lazy"/>
+      </div>
+    </div>
+
+    <div class="job-list" style="margin-top:clamp(32px,5vw,56px);">
+      <div class="job reveal">
+        <div class="job__priority">P0 · PROPULSION</div>
+        <div>
+          <div class="job__title" data-i18n-en="j.j1t">推进系统主任工程师</div>
+          <div class="job__desc" data-i18n-en="j.j1d">液氧甲烷 · 涡轮泵 · 试验</div>
+        </div>
+        <div class="job__pay">¥ 60—100 万</div>
+      </div>
+
+      <div class="job reveal">
+        <div class="job__priority">P0 · TEST OPS</div>
+        <div>
+          <div class="job__title" data-i18n-en="j.j2t">试验运营负责人</div>
+          <div class="job__desc" data-i18n-en="j.j2d">试车台 · 危化品 · 空域协调</div>
+        </div>
+        <div class="job__pay">¥ 40—70 万</div>
+      </div>
+
+      <div class="job reveal">
+        <div class="job__priority">P1 · AVIONICS</div>
+        <div>
+          <div class="job__title" data-i18n-en="j.j3t">航电 · 飞控负责人</div>
+          <div class="job__desc" data-i18n-en="j.j3d">FPGA · 嵌入式 · 遥测</div>
+        </div>
+        <div class="job__pay">¥ 40—70 万</div>
+      </div>
+
+      <div class="job reveal">
+        <div class="job__priority">P1 · STRUCTURES</div>
+        <div>
+          <div class="job__title" data-i18n-en="j.j4t">结构 · 热防护负责人</div>
+          <div class="job__desc" data-i18n-en="j.j4d">贮箱 · 箭体 · 复合材料</div>
+        </div>
+        <div class="job__pay">¥ 40—70 万</div>
+      </div>
+
+      <div class="job reveal">
+        <div class="job__priority">P2 · MFG</div>
+        <div>
+          <div class="job__title" data-i18n-en="j.j5t">制造 · 供应链负责人</div>
+          <div class="job__desc" data-i18n-en="j.j5d">工艺 · 质量 · 供应商</div>
+        </div>
+        <div class="job__pay">¥ 30—50 万</div>
+      </div>
+
+      <div class="job reveal">
+        <div class="job__priority">P2 · BUSINESS</div>
+        <div>
+          <div class="job__title" data-i18n-en="j.j6t">商业 · 卫星业务负责人</div>
+          <div class="job__desc" data-i18n-en="j.j6d">客户拓展 · 数据产品 · 订阅</div>
+        </div>
+        <div class="job__pay">¥ 40—70 万</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CONTACT ============ -->
+<section class="section section--dark" id="contact">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="section-head__eyebrow" data-i18n-en="c.eyebrow">CONTACT</span>
+      <h2 class="section-head__title" data-i18n-en="c.title">联系我们</h2>
+      <p class="section-head__lead" data-i18n-en="c.lead">
+        欢迎投资人、行业伙伴、潜在联合创始人投递合作意向。
+      </p>
+    </div>
+
+    <div class="contact">
+      <div class="reveal">
+        <form id="contactForm" novalidate>
+          <div class="field">
+            <label for="fName" data-i18n-en="c.f1">称呼</label>
+            <input type="text" id="fName" name="name" autocomplete="name" required/>
+          </div>
+          <div class="field">
+            <label for="fOrg" data-i18n-en="c.f2">机构 / 公司</label>
+            <input type="text" id="fOrg" name="org" autocomplete="organization"/>
+          </div>
+          <div class="field">
+            <label for="fEmail" data-i18n-en="c.f3">邮箱</label>
+            <input type="email" id="fEmail" name="email" autocomplete="email" required/>
+          </div>
+          <div class="field">
+            <label for="fTopic" data-i18n-en="c.f4">合作类型</label>
+            <select id="fTopic" name="topic">
+              <option value="invest" data-i18n-en="c.o1">投资</option>
+              <option value="partner" data-i18n-en="c.o2">技术与供应链合作</option>
+              <option value="customer" data-i18n-en="c.o3">数据采购</option>
+              <option value="join" data-i18n-en="c.o4">加入团队</option>
+              <option value="gov" data-i18n-en="c.o5">政府与园区对接</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="fMsg" data-i18n-en="c.f5">留言</label>
+            <textarea id="fMsg" name="message" required></textarea>
+          </div>
+          <button type="submit" class="btn btn--primary">
+            <span data-i18n-en="c.submit">发送</span>
+            <span class="btn__arrow">→</span>
+          </button>
+          <p class="form-note" data-i18n-en="c.note">
+            本站为静态页面，表单需接入第三方表单服务后才能实际收信。
+          </p>
+        </form>
+      </div>
+
+      <div class="reveal">
+        <ul class="contact-list">
+          <li>
+            <div class="contact-list__label">EMAIL</div>
+            <div class="contact-list__value">info@zhuoyan-aerospace.com</div>
+          </li>
+          <li>
+            <div class="contact-list__label" data-i18n-en="c.l2">电话</div>
+            <div class="contact-list__value">+86 010-0000-0000</div>
+          </li>
+          <li>
+            <div class="contact-list__label" data-i18n-en="c.l3">地址</div>
+            <div class="contact-list__value" data-i18n-en="c.v3">北京市 · 海淀区 · 中关村</div>
+          </li>
+          <li>
+            <div class="contact-list__label">FOUNDING</div>
+            <div class="contact-list__value">EST. 2026 · BEIJING · CHINA</div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer__top">
+      <div class="footer__brand">
+        <div class="footer__brand-name">逐焰航天</div>
+        <div class="footer__brand-en">ZHUOYAN AEROSPACE</div>
+      </div>
+      <nav class="footer__links">
+        <a href="#missions" data-i18n-en="nav.missions">三大使命</a>
+        <a href="#engine" data-i18n-en="nav.engine">发动机</a>
+        <a href="#data" data-i18n-en="nav.data">卫星与数据</a>
+        <a href="#port" data-i18n-en="nav.port">航天港</a>
+        <a href="#roadmap" data-i18n-en="nav.roadmap">路线图</a>
+        <a href="#careers" data-i18n-en="nav.careers">招贤</a>
+        <a href="#contact" data-i18n-en="nav.contact">联系</a>
+      </nav>
+    </div>
+
+    <div class="footer__legal">
+      <p class="footer__disclaimer" data-i18n-en="f.legal">
+        逐焰航天处于筹备阶段。网站所载参数、预算与时间表均为规划量级，不构成要约或承诺。公司注册、发射许可、卫星频率使用与危险化学品相关审批尚未完成。
+      </p>
+      <p>© 2026 逐焰航天（筹）· ZHUOYAN AEROSPACE</p>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>

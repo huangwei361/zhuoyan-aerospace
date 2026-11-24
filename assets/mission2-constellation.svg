@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1180" preserveAspectRatio="xMidYMid meet" role="img" aria-label="mission2-constellation">
+  <rect width="1600" height="1180" fill="#FFFFFF"/>
+<text x="120" y="130" font-size="14" letter-spacing="7" fill="#F5A623" font-weight="700">MISSION 02 · 低轨星座</text>
+<text x="120" y="182" font-size="42" fill="#0B2545" font-weight="800">把卫星,变成一座城市的基础设施</text>
+<text x="120" y="220" font-size="17" fill="#475569">CONSTELLATION · 多壳层 · 模块化 · 数据服务</text>
+<circle cx="460" cy="640" r="200" fill="#0B2545"/>
+<ellipse cx="460" cy="640" rx="200" ry="52" fill="none" stroke="#5B9BD5" stroke-width="1" opacity="0.5"/>
+<ellipse cx="460" cy="640" rx="52" ry="200" fill="none" stroke="#5B9BD5" stroke-width="1" opacity="0.5"/>
+<path d="M 340 580 q 40 -25 95 -12 q 28 12 18 45 q -18 30 -80 28 q -70 0 -33 -61 z" fill="#1E3A8A" opacity="0.8"/>
+<path d="M 450 660 q 45 -18 105 0 q 30 28 0 70 q -48 30 -125 -12 q -22 -28 20 -58 z" fill="#1E3A8A" opacity="0.8"/>
+<ellipse cx="460" cy="640" rx="280" ry="74" fill="none" stroke="#F5A623" stroke-width="2" opacity="0.75" transform="rotate(-16 460 640)"/>
+<circle cx="740" cy="640" r="6" fill="#F5A623" opacity="0.95"/>
+<circle cx="635" cy="698" r="6" fill="#F5A623" opacity="0.95"/>
+<circle cx="398" cy="712" r="6" fill="#F5A623" opacity="0.95"/>
+<circle cx="208" cy="672" r="6" fill="#F5A623" opacity="0.95"/>
+<circle cx="208" cy="608" r="6" fill="#F5A623" opacity="0.95"/>
+<circle cx="398" cy="568" r="6" fill="#F5A623" opacity="0.95"/>
+<circle cx="635" cy="582" r="6" fill="#F5A623" opacity="0.95"/>
+<ellipse cx="460" cy="640" rx="360" ry="96" fill="none" stroke="#5B9BD5" stroke-width="1" opacity="0.45" transform="rotate(-16 460 640)"/>
+<circle cx="792" cy="677" r="5" fill="#5B9BD5" opacity="0.7"/>
+<circle cx="624" cy="725" r="5" fill="#5B9BD5" opacity="0.7"/>
+<circle cx="380" cy="734" r="5" fill="#5B9BD5" opacity="0.7"/>
+<circle cx="173" cy="698" r="5" fill="#5B9BD5" opacity="0.7"/>
+<circle cx="100" cy="635" r="5" fill="#5B9BD5" opacity="0.7"/>
+<circle cx="196" cy="575" r="5" fill="#5B9BD5" opacity="0.7"/>
+<circle cx="416" cy="545" r="5" fill="#5B9BD5" opacity="0.7"/>
+<circle cx="656" cy="559" r="5" fill="#5B9BD5" opacity="0.7"/>
+<circle cx="804" cy="612" r="5" fill="#5B9BD5" opacity="0.7"/>
+<ellipse cx="460" cy="640" rx="440" ry="118" fill="none" stroke="#5B9BD5" stroke-width="1" opacity="0.45" transform="rotate(-16 460 640)"/>
+<circle cx="767" cy="725" r="5" fill="#5B9BD5" opacity="0.7"/>
+<circle cx="547" cy="756" r="5" fill="#5B9BD5" opacity="0.7"/>
+<circle cx="300" cy="750" r="5" fill="#5B9BD5" opacity="0.7"/>
+<circle cx="104" cy="709" r="5" fill="#5B9BD5" opacity="0.7"/>
+<circle cx="21" cy="647" r="5" fill="#5B9BD5" opacity="0.7"/>
+<circle cx="77" cy="582" r="5" fill="#5B9BD5" opacity="0.7"/>
+<circle cx="255" cy="536" r="5" fill="#5B9BD5" opacity="0.7"/>
+<circle cx="498" cy="522" r="5" fill="#5B9BD5" opacity="0.7"/>
+<circle cx="729" cy="547" r="5" fill="#5B9BD5" opacity="0.7"/>
+<circle cx="874" cy="600" r="5" fill="#5B9BD5" opacity="0.7"/>
+<circle cx="889" cy="667" r="5" fill="#5B9BD5" opacity="0.7"/>
+<text x="120" y="920" font-size="17" fill="#0B2545" font-weight="700">Shell-A</text>
+<text x="290" y="920" font-size="16" fill="#F5A623" font-weight="700">300—350 km</text>
+<text x="470" y="920" font-size="15" fill="#475569">高分辨率光学 / SAR</text>
+<text x="120" y="982" font-size="17" fill="#0B2545" font-weight="700">Shell-B</text>
+<text x="290" y="982" font-size="16" fill="#F5A623" font-weight="700">500—550 km</text>
+<text x="470" y="982" font-size="15" fill="#475569">多光谱遥感 · 太阳同步</text>
+<text x="120" y="1044" font-size="17" fill="#0B2545" font-weight="700">Shell-C</text>
+<text x="290" y="1044" font-size="16" fill="#F5A623" font-weight="700">800—900 km</text>
+<text x="470" y="1044" font-size="15" fill="#475569">IoT / 通信 · 极地</text>
+<rect x="820" y="320" width="660" height="180" fill="#F8FAFC" stroke="#E2E8F0"/>
+<rect x="820" y="320" width="6" height="180" fill="#F5A623"/>
+<text x="860" y="364" font-size="14" letter-spacing="4" fill="#F5A623" font-weight="700">PAYLOADS · 灵活载荷</text>
+<text x="860" y="412" font-size="26" fill="#0B2545" font-weight="700">多光谱 · 高光谱 · SAR · IoT</text>
+<text x="860" y="450" font-size="15" fill="#475569">同一平台,模块化载荷舱,9—12 月交付</text>
+<rect x="820" y="540" width="660" height="180" fill="#F8FAFC" stroke="#E2E8F0"/>
+<rect x="820" y="540" width="6" height="180" fill="#F5A623"/>
+<text x="860" y="584" font-size="14" letter-spacing="4" fill="#F5A623" font-weight="700">SERVICES · 数据服务</text>
+<text x="860" y="632" font-size="26" fill="#0B2545" font-weight="700">API · 订阅 · 定制报告</text>
+<text x="860" y="670" font-size="15" fill="#475569">8 大垂直行业,从农业到能源</text>
+<rect x="820" y="760" width="660" height="180" fill="#F8FAFC" stroke="#E2E8F0"/>
+<rect x="820" y="760" width="6" height="180" fill="#F5A623"/>
+<text x="860" y="804" font-size="14" letter-spacing="4" fill="#F5A623" font-weight="700">ECONOMICS · 商业闭环</text>
+<text x="860" y="852" font-size="26" fill="#0B2545" font-weight="700">首年 1,000—3,000 万元</text>
+<text x="860" y="890" font-size="15" fill="#475569">平台 + 数据 + 服务三层收入</text>
+<text x="820" y="1010" font-size="15" fill="#475569">自研火箭对卫星业务的运力贡献在 BF-3R 之后;此前主要依靠拼车或商业发射。</text>
+</svg>

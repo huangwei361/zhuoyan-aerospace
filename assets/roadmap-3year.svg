@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 820" preserveAspectRatio="xMidYMid meet" role="img" aria-label="Three year roadmap">
+  <defs>
+    <linearGradient id="rm" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#0B2545"/>
+      <stop offset="50%" stop-color="#1E40AF"/>
+      <stop offset="100%" stop-color="#F5A623"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1600" height="820" fill="#FFFFFF"/>
+
+  <!-- Header -->
+  <g font-family="Inter, sans-serif">
+    <text x="120" y="100" font-size="11" letter-spacing="6" fill="#F5A623" font-weight="700">ROADMAP · 三年路线</text>
+    <text x="120" y="160" font-size="32" font-weight="800" fill="#0B2545">从一台发动机</text>
+    <text x="120" y="200" font-size="32" font-weight="800" fill="#F5A623">到一整套发射基础设施</text>
+  </g>
+
+  <!-- Time bar -->
+  <g transform="translate(120 360)">
+    <rect x="0" y="0" width="1360" height="20" fill="url(#rm)" rx="10"/>
+    <!-- Phase dividers -->
+    <g fill="#FFFFFF">
+      <rect x="453" y="-8" width="3" height="36"/>
+      <rect x="906" y="-8" width="3" height="36"/>
+    </g>
+    <!-- Year labels -->
+    <g font-family="Inter,sans-serif" font-weight="700" fill="#0B2545">
+      <text x="0" y="-20" font-size="14">YEAR 01</text>
+      <text x="453" y="-20" font-size="14">YEAR 02</text>
+      <text x="906" y="-20" font-size="14">YEAR 03</text>
+      <text x="1360" y="-20" font-size="14" text-anchor="end">YEAR 04</text>
+    </g>
+  </g>
+
+  <!-- Milestones Y1 -->
+  <g transform="translate(120 220)" font-family="Inter,sans-serif" fill="#0B2545">
+    <text font-size="11" letter-spacing="4" fill="#F5A623" font-weight="700">YEAR 01 · ENGINE</text>
+    <text y="34" font-size="22" font-weight="700">造出一台能多次点火的发动机</text>
+    <text y="64" font-size="13" opacity="0.75">· 团队组建 8—12 人</text>
+    <text y="84" font-size="13" opacity="0.75">· 设计冻结 PDR / CDR</text>
+    <text y="104" font-size="13" opacity="0.75">· 单组件 + 子系统试验</text>
+    <text y="124" font-size="13" opacity="0.75">· 首次热试车 + 重复点火</text>
+  </g>
+
+  <!-- Milestones Y2 -->
+  <g transform="translate(573 220)" font-family="Inter,sans-serif" fill="#0B2545">
+    <text font-size="11" letter-spacing="4" fill="#F5A623" font-weight="700">YEAR 02 · INFRASTRUCTURE</text>
+    <text y="34" font-size="22" font-weight="700">建出高频发射的工程体系</text>
+    <text y="64" font-size="13" opacity="0.75">· 长程试验 100 s</text>
+    <text y="84" font-size="13" opacity="0.75">· 多次复推 ≥ 5 次</text>
+    <text y="104" font-size="13" opacity="0.75">· 试车台 · 危化品 · 数据闭环</text>
+    <text y="124" font-size="13" opacity="0.75">· 试验合作方长期绑定</text>
+  </g>
+
+  <!-- Milestones Y3 -->
+  <g transform="translate(1026 220)" font-family="Inter,sans-serif" fill="#0B2545">
+    <text font-size="11" letter-spacing="4" fill="#F5A623" font-weight="700">YEAR 03 · BUSINESS</text>
+    <text y="34" font-size="22" font-weight="700">把基础设施变成现金流</text>
+    <text y="64" font-size="13" opacity="0.75">· 验证星在轨演示</text>
+    <text y="84" font-size="13" opacity="0.75">· 数据 SaaS 商业化</text>
+    <text y="104" font-size="13" opacity="0.75">· 5—10 颗商业卫星</text>
+    <text y="124" font-size="13" opacity="0.75">· A 轮融资完成</text>
+  </g>
+
+  <!-- Funding axis -->
+  <g transform="translate(120 540)" font-family="Inter,sans-serif">
+    <text font-size="11" letter-spacing="4" fill="#F5A623" font-weight="700">FUNDING ROUNDS · 四轮融资</text>
+    <g font-size="14" fill="#0B2545" font-weight="700">
+      <g transform="translate(0 50)">
+        <rect width="160" height="40" fill="#0B2545"/>
+        <text x="80" y="25" fill="#FFFFFF" text-anchor="middle" font-size="13">天使 ¥10—30 M</text>
+      </g>
+      <g transform="translate(280 50)">
+        <rect width="200" height="40" fill="#1E40AF"/>
+        <text x="100" y="25" fill="#FFFFFF" text-anchor="middle" font-size="13">Pre-A ¥50—100 M</text>
+      </g>
+      <g transform="translate(560 50)">
+        <rect width="220" height="40" fill="#3B82F6"/>
+        <text x="110" y="25" fill="#FFFFFF" text-anchor="middle" font-size="13">A ¥100—200 M</text>
+      </g>
+      <g transform="translate(860 50)">
+        <rect width="280" height="40" fill="#F5A623"/>
+        <text x="140" y="25" fill="#0B2545" text-anchor="middle" font-size="13">B ¥300—500 M</text>
+      </g>
+      <g transform="translate(1180 50)" opacity="0.6">
+        <rect width="160" height="40" fill="none" stroke="#0B2545" stroke-width="2" stroke-dasharray="4 4"/>
+        <text x="80" y="25" fill="#0B2545" text-anchor="middle" font-size="13">C 战略</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- Bottom callout -->
+  <g transform="translate(120 760)" font-family="Inter, sans-serif">
+    <line x1="0" y1="0" x2="60" y2="0" stroke="#F5A623" stroke-width="2"/>
+    <text y="40" font-size="14" fill="#0B2545">Year 01 解决"能不能造",Year 02 解决"能不能持续造",Year 03 解决"造出来能不能赚钱"。</text>
+    <text y="68" font-size="13" fill="#475569">资金为里程碑服务,而不是反过来。</text>
+  </g>
+
+  <!-- Vertical markers -->
+  <g transform="translate(120 360)" stroke="#0B2545" stroke-width="1" opacity="0.3">
+    <line x1="0" y1="20" x2="0" y2="60"/>
+    <line x1="453" y1="20" x2="453" y2="60"/>
+    <line x1="906" y1="20" x2="906" y2="60"/>
+    <line x1="1360" y1="20" x2="1360" y2="60"/>
+  </g>
+</svg>

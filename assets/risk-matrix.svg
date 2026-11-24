@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 780" preserveAspectRatio="xMidYMid meet" role="img" aria-label="Risk matrix">
+  <rect width="1600" height="780" fill="#FFFFFF"/>
+
+  <g transform="translate(120 80)" font-family="Inter, sans-serif">
+    <text font-size="13" letter-spacing="6" fill="#F5A623" font-weight="700">RISK × MITIGATION</text>
+    <text y="44" font-size="30" fill="#0B2545" font-weight="800">七类核心风险与缓解</text>
+    <text y="78" font-size="14" fill="#475569">技术 · 监管 · 资本 · 团队 · 供应链 · 市场 · 基础设施</text>
+
+    <!-- Header -->
+    <g transform="translate(0 120)">
+      <rect x="0" y="0" width="1360" height="48" fill="#0B2545"/>
+      <text x="40" y="31" fill="#F5F7FA" font-size="13" letter-spacing="2" font-weight="700">CATEGORY</text>
+      <text x="240" y="31" fill="#F5F7FA" font-size="13" letter-spacing="2" font-weight="700">RISK</text>
+      <text x="700" y="31" fill="#F5F7FA" font-size="13" letter-spacing="2" font-weight="700">MITIGATION</text>
+    </g>
+
+    <!-- Rows -->
+    <g transform="translate(0 168)" font-size="13" fill="#0B2545">
+      <g>
+        <rect x="0" y="0" width="1360" height="58" fill="#F8FAFC" stroke="#E2E8F0"/>
+        <rect x="0" y="0" width="160" height="58" fill="#0B2545"/>
+        <text x="80" y="33" text-anchor="middle" fill="#F5A623" font-weight="700" font-size="11" letter-spacing="2">TECHNICAL</text>
+        <text x="180" y="34" font-weight="700">推力室烧穿 · 阀门失效 · 涡轮泵爆裂</text>
+        <text x="700" y="34">再生冷却 + 壁温监测 · 冗余阀 + 紧急关机 · 转速限制</text>
+      </g>
+      <g transform="translate(0 58)">
+        <rect x="0" y="0" width="1360" height="58" fill="#FFFFFF" stroke="#E2E8F0"/>
+        <rect x="0" y="0" width="160" height="58" fill="#1E3A8A"/>
+        <text x="80" y="33" text-anchor="middle" fill="#F5A623" font-weight="700" font-size="11" letter-spacing="2">REGULATORY</text>
+        <text x="180" y="34" font-weight="700">发射许可 · 频率审批 · 危化品 · 环保审查</text>
+        <text x="700" y="34">合规预评估 · 外部律所 · 合作持牌发射方 · 提前环评</text>
+      </g>
+      <g transform="translate(0 116)">
+        <rect x="0" y="0" width="1360" height="58" fill="#F8FAFC" stroke="#E2E8F0"/>
+        <rect x="0" y="0" width="160" height="58" fill="#1E40AF"/>
+        <text x="80" y="33" text-anchor="middle" fill="#F5A623" font-weight="700" font-size="11" letter-spacing="2">CAPITAL</text>
+        <text x="180" y="34" font-weight="700">资金节奏 · 现金流 · 基础设施前期投入</text>
+        <text x="700" y="34">分阶段融资 · 里程碑驱动 · 现金流预警线 · 优先共享设施</text>
+      </g>
+      <g transform="translate(0 174)">
+        <rect x="0" y="0" width="1360" height="58" fill="#FFFFFF" stroke="#E2E8F0"/>
+        <rect x="0" y="0" width="160" height="58" fill="#3B82F6"/>
+        <text x="80" y="33" text-anchor="middle" fill="#F5A623" font-weight="700" font-size="11" letter-spacing="2">TEAM</text>
+        <text x="180" y="34" font-weight="700">核心人员流动 · 跨学科团队稀缺</text>
+        <text x="700" y="34">股权激励 · 期权池 · 长期绑定 · 高校联合培养</text>
+      </g>
+      <g transform="translate(0 232)">
+        <rect x="0" y="0" width="1360" height="58" fill="#F8FAFC" stroke="#E2E8F0"/>
+        <rect x="0" y="0" width="160" height="58" fill="#F37820"/>
+        <text x="80" y="33" text-anchor="middle" fill="#FFFFFF" font-weight="700" font-size="11" letter-spacing="2">SUPPLY</text>
+        <text x="180" y="34" font-weight="700">关键件断供 · 出口管制</text>
+        <text x="700" y="34">国产化优先 · 多供应商 · 关键件安全库存</text>
+      </g>
+      <g transform="translate(0 290)">
+        <rect x="0" y="0" width="1360" height="58" fill="#FFFFFF" stroke="#E2E8F0"/>
+        <rect x="0" y="0" width="160" height="58" fill="#F5A623"/>
+        <text x="80" y="33" text-anchor="middle" fill="#0B2545" font-weight="700" font-size="11" letter-spacing="2">MARKET</text>
+        <text x="180" y="34" font-weight="700">客户回款 · 数据商品化 · 发射需求波动</text>
+        <text x="700" y="34">预付款 · 订阅制 · 标杆客户优先 · 多元载荷来源</text>
+      </g>
+      <g transform="translate(0 348)">
+        <rect x="0" y="0" width="1360" height="58" fill="#F8FAFC" stroke="#E2E8F0"/>
+        <rect x="0" y="0" width="160" height="58" fill="#06182E"/>
+        <text x="80" y="33" text-anchor="middle" fill="#F5A623" font-weight="700" font-size="11" letter-spacing="2">INFRASTRUCTURE</text>
+        <text x="180" y="34" font-weight="700">两级火箭长期复用 · 真空辐射散热 · 航天港选址</text>
+        <text x="700" y="34">共享试验资源起步 · 与有资质方合作发射 · 长程试验验证材料极限</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- Bottom note -->
+  <g transform="translate(120 700)" font-family="Inter, sans-serif">
+    <line x1="0" y1="0" x2="60" y2="0" stroke="#F5A623" stroke-width="2"/>
+    <text y="34" font-size="14" fill="#475569">"基础设施"是新增加的风险类目 — 我们清醒地知道,造出一台能飞的火箭和建成一套能高频发射的体系,</text>
+    <text y="58" font-size="14" fill="#475569">中间隔着:复用的可靠性、轨道的资源、辐射与散热、选址与环评。逐焰选择先把基础数据资产建起来。</text>
+  </g>
+</svg>
