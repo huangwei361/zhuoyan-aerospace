@@ -116,6 +116,9 @@ def generate(name: str, prompt: str, ratio: str, tries: int = 3) -> bool:
 
 
 def main():
+    if not KEY:
+        print("请先设置环境变量 ARK_API_KEY")
+        return 1
     print(f"model={MODEL}\n")
     ok = 0
     for name, prompt, ratio in SHOTS:
