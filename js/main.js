@@ -33,6 +33,16 @@
       "hero.s3": "重复点火",
       "hero.s4": "公司宣传册",
 
+      "pos.1t": "上一阶段 · PRODUCT",
+      "pos.1h": "能不能造出来",
+      "pos.1d": "单次运力 · 复用次数 · 入轨成本",
+      "pos.2t": "当前阶段 · FREQUENCY",
+      "pos.2h": "能不能高频地用起来",
+      "pos.2d": "年发射次数 · 周转周期 · 港口吞吐",
+      "pos.3t": "逐焰的选择",
+      "pos.3h": "运力 × 频次",
+      "pos.3d": "两者是乘数关系，任何一项单独翻倍，商业效果相同",
+
       "m.eyebrow": "THREE MISSIONS",
       "m.title": "三条线，一个目标：<em>把发射变成日常</em>",
       "m.lead":
@@ -182,6 +192,16 @@
       "hero.s2": "Sea-level Isp",
       "hero.s3": "Re-ignitions",
       "hero.s4": "Brochure pages",
+
+      "pos.1t": "Previous phase · PRODUCT",
+      "pos.1h": "Can we build it",
+      "pos.1d": "Per-launch payload · reuse count · cost per kg",
+      "pos.2t": "Current phase · FREQUENCY",
+      "pos.2h": "Can we use it at high cadence",
+      "pos.2d": "Launches per year · turnaround · port throughput",
+      "pos.3t": "Zhuoyan's choice",
+      "pos.3h": "Payload × frequency",
+      "pos.3d": "The two multiply — doubling either one delivers the same business effect.",
 
       "m.eyebrow": "THREE MISSIONS",
       "m.title": "Three lines, one goal: <em>make launching routine</em>",

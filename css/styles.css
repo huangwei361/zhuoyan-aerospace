@@ -1007,6 +1007,17 @@ html:not([lang="en"]) .lang-switch__btn[data-lang="zh"] {
   color: var(--primary);
 }
 
+/* ---------------------------------------------------------------- Positioning strip */
+.pos-strip {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+@media (max-width: 760px) {
+  .pos-strip {
+    grid-template-columns: 1fr;
+  }
+}
+
 /* ---------------------------------------------------------------- Reveal */
 .reveal {
   opacity: 0;
